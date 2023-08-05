@@ -85,6 +85,11 @@ video {
 	font-size: 100%;
 	vertical-align: baseline;
 }
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
