@@ -3,7 +3,7 @@
 }
 
 .footer{
-  padding-top: 64px;
+  padding: 64px 15px;
 }
 
 .footer__content{
@@ -41,12 +41,4 @@
 
 .wakanda__name-footer{
   color: #FAFAFA;
-}
-
-.containerss{
-  display: grid;
-  width: 1200px;
-  margin: 20px auto;
-  grid-template-columns: repeat(5, calc(100% / 5));
-  gap: 20px 20px;
 }
