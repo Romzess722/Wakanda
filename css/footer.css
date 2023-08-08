@@ -1,0 +1,52 @@
+.footer--wrapper{
+  background-color: #1D242B;;
+}
+
+.footer{
+  padding-top: 64px;
+}
+
+.footer__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-list{
+  display: flex;
+}
+
+.social-list__link{
+  display: block;
+  box-sizing: content-box;
+}
+
+.footer__text{
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; 
+}
+
+.social__icon-footer{
+  fill: #0077C0;
+}
+
+.footer__logo,
+.footer__logo-link{
+  display: flex;
+  align-items: center;
+}
+
+.wakanda__name-footer{
+  color: #FAFAFA;
+}
+
+.containerss{
+  display: grid;
+  width: 1200px;
+  margin: 20px auto;
+  grid-template-columns: repeat(5, calc(100% / 5));
+  gap: 20px 20px;
+}
