@@ -28,7 +28,7 @@
 }
 
 .testimonial__item{
-  padding: 20px;
+  padding: 20px 30px 20px 20px;
   
   box-sizing: border-box;
   background: #FFF;
@@ -40,13 +40,11 @@
   font-weight: 400;
   line-height: 24.5px;
   
-  /* margin-bottom: 24px; */
 }
 
 .testimonial__user-info{
   display: flex;
   align-items: center;
-
   margin-bottom: 16px;
 }
 
@@ -59,9 +57,20 @@
   margin-right: 8px;
 }
 
-.testimonial__user-info{
-  color: #000;
+.testimonial__user-name{
   font-size: 16px;
+  font-weight: 500;
   font-style: normal;
   line-height: normal;
+  color: #000;
+}
+
+.testimonial__item{
+  position: relative;
+}
+
+.testimonial__social-list{
+  position: absolute;
+  top: 10px;
+  right: 0;
 }
